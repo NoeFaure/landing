@@ -1,0 +1,34 @@
+.social-medias {
+	text-align: center;
+	color: #dedede;
+	margin: 50px auto;
+  margin-bottom: 30px;
+}
+
+.social-medias i {
+	font-size: 2em;
+	font-size: 2em;
+	color: #dedede;
+	margin-right: 20px;
+	cursor: pointer;
+	border: 2px solid #dedede;
+	height: calc(1.7em - 10px);
+	width: 1.7em;
+	padding-top: 11px;
+	border-radius: 50%;
+	transition: .2s;
+}
+
+.social-medias i:hover {
+	color: #198cfd;
+	border-color: #198cfd;
+}
+
+#hide-signature-typeform {
+	width: calc(100% - 8px);
+	height: 1em;
+	padding: 4px;
+	position: relative;
+	margin-top: -19px;
+	background-color: #198cfd;
+}

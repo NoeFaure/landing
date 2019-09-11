@@ -1,0 +1,45 @@
+/* ----- Imports ---- */
+@import url(components/buttons.css);
+@import url(components/banners.css);
+@import url(components/cards.css);
+@import url(components/social-medias.css);
+
+/* ----- Fonts ---- */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Raleway&display=swap');
+
+/* ---- General Style ---- */
+
+html {
+	/* Permet un scroll plus fluide*/
+  scroll-behavior: smooth; 
+}
+
+body {
+	background-color: #ffffff;
+	color: #292d3c;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 0.05em;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+}
+
+hr {
+	opacity: 0.1;
+}
+
+.basic-container {
+	margin: 20px auto;
+	width: calc(100% - 150px);
+}
+
+.signature {
+	text-align: center;
+	font-size: 0.7em;
+	color: #cccccc;
+}

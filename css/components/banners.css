@@ -1,0 +1,23 @@
+#hero-section {
+	background-image: linear-gradient(-225deg, black 0%, rgba(0,0,0,0) 75%), url(../../images/background.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	height: 250px;
+}
+
+#hero-section h1 {
+	font-size: 2.5em;
+	margin-bottom: 0;
+	color: #ffffff;
+}
+
+#hero-section h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+}
+
+#hero-section .btn-blue {
+	margin-top: 60px;
+}
