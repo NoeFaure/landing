@@ -50,3 +50,14 @@
 	object-fit: cover;
 	border-radius: 5px;
 }
+
+@media (max-width: 650px) {
+	.card img {
+		width: 100%;
+    margin-bottom: 20px;
+	}
+	
+	.card {
+		display: inline;
+	}
+}

@@ -21,3 +21,9 @@
 #hero-section .btn-blue {
 	margin-top: 60px;
 }
+
+@media (max-width: 650px) {
+	#hero-section .btn-blue {
+		margin-top: 40px;
+	}
+}

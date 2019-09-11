@@ -2,7 +2,11 @@
 	text-align: center;
 	color: #dedede;
 	margin: 50px auto;
-  margin-bottom: 30px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+
 }
 
 .social-medias i {
@@ -15,6 +19,7 @@
 	height: calc(1.7em - 10px);
 	width: 1.7em;
 	padding-top: 11px;
+	margin-top: 20px;
 	border-radius: 50%;
 	transition: .2s;
 }
